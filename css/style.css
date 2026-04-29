@@ -643,7 +643,8 @@ footer span { color: var(--accent); }
   z-index: 9999;
   transition: opacity 0.5s, visibility 0.5s;
 }
-#loader.hidden { opacity: 0; visibility: hidden; }
+#loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+#loader.hidden .loader-text { animation: none; }
 .loader-text {
   font-family: 'Syne', sans-serif;
   font-size: 2rem;
