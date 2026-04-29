@@ -239,5 +239,10 @@ function sendWhatsApp(e) {
 // ── Loader ─────────────────────────────────────────────────────
 window.addEventListener('load', () => {
   loadData();
-  setTimeout(() => document.getElementById('loader').classList.add('hidden'), 800);
+  const loader = document.getElementById('loader');
+  setTimeout(() => {
+    loader.classList.add('hidden');
+    // Remove from DOM after fade-out transition (0.5s) to fully stop animation
+    setTimeout(() => loader.remove(), 500);
+  }, 800);
 });
