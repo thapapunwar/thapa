@@ -1,7 +1,67 @@
 {
   "personal": {
     "name": "Swabhiman Thapa",
-    "subtitle": "Mechanical Engineer",
-    "about": "Mechanical Engineer specializing in HVAC systems."
+    "title": "Mechanical Engineer",
+    "subtitle": "HVAC Specialist · AutoCAD · SolidWorks",
+    "dob": "2058-05-29",
+    "address": "Dhuwankot, Palungtar, Gandaki, Nepal",
+    "email": "st9846941682@gmail.com",
+    "phone": "+977 9846941682 / 9765628481",
+    "languages": "Nepali, Basic English, Hindi",
+    "religion": "Hindu",
+    "marital_status": "Single",
+    "profile_image": "profile.jpg",
+    "about": "I am a Mechanical Engineer at Tribhuvan University, with major HVAC systems, Refrigeration and Building Services. I combine strong technical knowledge with internship experience to deliver real-world engineering solutions."
+  },
+  "education": [
+    {
+      "university": "Tribhuvan University (TU)",
+      "institute": "Institute of Engineering (IOE)",
+      "college": "Western Regional Campus (WRC)",
+      "level": "Bachelor's Degree",
+      "faculty": "Mechanical Engineering",
+      "year": "2022 – 2026"
+    }
+  ],
+  "skills": [
+    { "name": "AutoCAD",     "level": 75, "tag": "2D/3D Design" },
+    { "name": "SolidWorks",  "level": 70, "tag": "3D Modelling" },
+    { "name": "Plate & Sheet","level": 90, "tag": "Sheet Metal"  },
+    { "name": "MS Office",   "level": 65, "tag": "Productivity"  }
+  ],
+  "experience": [
+    {
+      "company": "3MW (Internship)",
+      "location": "Pokhara, Nepal",
+      "duration": "1 Month",
+      "responsibilities": [
+        "I-Beam and Column Design",
+        "2D and 3D drafting in AutoCAD & SolidWorks",
+        "Surface Development using Plate and Sheet",
+        "BOQ (Bill of Quantities) preparation",
+        "Maintenance techniques for hydraulic turbines including Francis and Pelton wheel types",
+        "Introduction to hydropower components: intake gates, bellmouth transitions, concrete formwork structures, and penstock pipe systems"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Design and fabrication of pesticide spraying drone (Final year project)",
+      "description": "",
+      "tags": ["Theoretical", "Technical", "Structural", "Fabrication", "Testing"]
+    },
+    {
+      "title": "Optimization of Oxygen Concentrator (Hami Teen Bhai)",
+      "description": "Conceptual design and performance optimization of an oxygen concentrator, focusing on efficiency improvements in flow regulation and molecular sieve performance.",
+      "tags": ["Conceptual Category Winner", "Optimization", "Fluid Systems", "Medical Engineering"]
+    }
+  ],
+  "social": {
+    "github":    "https://github.com/thapapunwar",
+    "linkedin":  "https://linkedin.com/in/swabhimanthapa",
+    "facebook":  "https://www.facebook.com/share/17g8QowASk/",
+    "instagram": "https://instagram.com/punwarthapa",
+    "twitter":   "https://twitter.com/thapapunwar",
+    "youtube":   ""
   }
 }
