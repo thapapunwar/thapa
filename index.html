@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="hero-name"></h1>
+<p id="hero-title"></p>
+<p id="hero-desc"></p>
+
+<script>
+async function loadData() {
+  const res = await fetch('data.json');
+  const d = await res.json();
+  const p = d.personal;
+
+  document.getElementById('hero-name').textContent = p.name;
+  document.getElementById('hero-title').textContent = p.subtitle;
+  document.getElementById('hero-desc').textContent = p.about;
+}
+
+loadData();
+</script>
+
+</body>
+</html>
